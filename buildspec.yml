@@ -7,16 +7,16 @@ phases:
 
     commands:
       # install npm
-      - npm install
+      #- npm install
 
   build:
     commands:
       # run build script
-      - npm run build
+      #- npm run build
 
-artifacts:
+#artifacts:
   # include all files required to run the application
-  files:
+  #files:
     - public/**/*
     - src/**/*
     - package.json
