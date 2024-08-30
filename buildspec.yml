@@ -6,18 +6,18 @@ phases:
       nodejs: 18
 
     commands:
-      # install npm
-      #- npm install
+       install npm
+      - npm install
 
   build:
     commands:
-      # run build script
-      #- npm run build
+       run build script
+      - npm run build
 
 
-#artifacts:
-  # include all files required to run the application
-  #files:
+artifacts:
+  include all files required to run the application
+  files:
     - public/**/*
     - src/**/*
     - package.json
